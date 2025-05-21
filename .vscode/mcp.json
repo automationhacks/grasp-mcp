@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "demo-mcp-server": {
+      "type": "stdio",
+      "command": "/Users/gauravsingh/.local/bin/uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp",
+        "python3",
+        "/Users/gauravsingh/self/grasp-mcp/mcp-server-demo/server.py"
+      ]
+    }
+  }
+}
